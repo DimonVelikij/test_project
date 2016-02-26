@@ -84,6 +84,7 @@ class MallardDuck extends Duck
 
 class RubberDuck extends Duck
 {
+    
     public function __construct(Fly $fly, Quack $quack)
     {
         $this->fly = $fly;
