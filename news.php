@@ -5,7 +5,6 @@ abstract class Duck
     //type interface
     public $fly;
     public $quack;
-    public $swim;
 
     public function setFly(Fly $fly)
     {
