@@ -5,6 +5,7 @@ abstract class Duck
     //type interface
     public $fly;
     public $quack;
+    public $swim;
 
     public function setFly(Fly $fly)
     {
@@ -84,7 +85,6 @@ class MallardDuck extends Duck
 
 class RubberDuck extends Duck
 {
-    
     public function __construct(Fly $fly, Quack $quack)
     {
         $this->fly = $fly;
